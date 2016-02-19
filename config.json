@@ -1,0 +1,22 @@
+{
+    "address": "https://localhost:5000",
+    "delay": 1,
+    "logging": {
+        "level": 10,
+        "stdout": true,
+        "filename": "ui-tests.log",
+        "mode": "w"
+    },
+    "appliances": [
+        {
+            "hostname": "appliance_1",
+            "username": "username",
+            "password": "password"
+        },
+        {
+            "hostname": "appliance_2",
+            "username": "username",
+            "password": "password"
+        }
+    ]
+}
